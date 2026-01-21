@@ -1,0 +1,151 @@
+.hero-dark-container {
+  background-color: #f5f5f0;
+}
+
+.hero-dark-container .hero-dark-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-dark {
+  position: relative;
+  padding: 80px 24px;
+  min-height: 500px;
+  background-color: #f5f5f0;
+}
+
+.hero-dark > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero-dark h1 {
+  max-width: 650px;
+  color: #006034;
+  font-family: 'Rethink Sans', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.5px;
+  margin: 0 0 20px;
+}
+
+.hero-dark p {
+  color: #333;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4375rem;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 550px;
+  margin: 0 0 32px;
+}
+
+.hero-dark a.button {
+  background-color: #006034;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 42px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.hero-dark a.button:hover {
+  background-color: #004d29;
+}
+
+.hero-dark .hero-text {
+  flex: 1;
+  max-width: 650px;
+}
+
+.hero-dark .hero-image {
+  flex-shrink: 0;
+  order: 2;
+}
+
+.hero-dark picture {
+  display: block;
+}
+
+.hero-dark img {
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (width >= 1200px) {
+  .hero-dark {
+    padding: 100px 80px;
+  }
+
+  .hero-dark > div {
+    gap: 100px;
+  }
+
+  .hero-dark h1 {
+    font-size: 4.5625rem;
+  }
+
+  .hero-dark p {
+    font-size: 1.4375rem;
+  }
+
+  .hero-dark img {
+    max-width: 600px;
+  }
+}
+
+@media (width >= 900px) and (width < 1200px) {
+  .hero-dark {
+    padding: 80px 64px;
+  }
+
+  .hero-dark > div {
+    gap: 60px;
+  }
+
+  .hero-dark h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-dark p {
+    font-size: 1.25rem;
+  }
+
+  .hero-dark img {
+    max-width: 450px;
+  }
+}
+
+@media (width < 900px) {
+  .hero-dark {
+    padding: 60px 24px;
+  }
+
+  .hero-dark > div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-dark .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-dark .hero-image {
+    order: 0;
+  }
+
+  .hero-dark img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}

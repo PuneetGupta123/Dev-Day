@@ -1,0 +1,44 @@
+{
+  "variantName": "cards-hobbies",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-09T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wearedesignmind.com/",
+    "originPage": "Design Mind homepage",
+    "blockPosition": "middle",
+    "sectionName": "Explore Our Creative Work"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light-beige",
+    "density": "spacious",
+    "purpose": "portfolio-showcase",
+    "imagePattern": "full-width-hero",
+    "cardStyle": "image-overlay-text"
+  },
+  "contentPattern": {
+    "structure": "large-image + overlaid-title + overlaid-subtitle",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "portfolio galleries",
+      "work showcases",
+      "project highlights",
+      "case study cards",
+      "featured content"
+    ],
+    "notSuitableFor": [
+      "text-heavy content",
+      "icon-based features",
+      "pricing tables",
+      "team member profiles"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

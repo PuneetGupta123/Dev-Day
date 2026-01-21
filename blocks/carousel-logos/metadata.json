@@ -1,0 +1,40 @@
+{
+  "variantName": "carousel-logos",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-01-08T13:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wearedesignmind.com/",
+    "originPage": "Design Mind homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "logo-bar",
+    "imagePattern": "logos"
+  },
+  "contentPattern": {
+    "structure": "horizontal scrolling logos",
+    "buttonCount": 0,
+    "imageCount": "multiple"
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "client logos",
+      "partner logos",
+      "brand showcases",
+      "trust indicators"
+    ],
+    "notSuitableFor": [
+      "hero carousels",
+      "image galleries",
+      "content sliders"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-08T13:35:00.000Z"
+  }
+}

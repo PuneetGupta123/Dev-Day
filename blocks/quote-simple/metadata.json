@@ -1,0 +1,39 @@
+{
+  "variantName": "quote-simple",
+  "baseBlock": "quote",
+  "version": "1.0.0",
+  "created": "2026-01-08T13:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wearedesignmind.com/",
+    "originPage": "Design Mind homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "quote text + attribution logo",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer testimonials",
+      "partner quotes",
+      "review sections"
+    ],
+    "notSuitableFor": [
+      "long-form quotes",
+      "multi-person testimonials",
+      "quotes with photos"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-08T13:35:00.000Z"
+  }
+}

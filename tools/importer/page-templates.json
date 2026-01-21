@@ -1,0 +1,36 @@
+{
+  "templates": [
+    {
+      "name": "designmind-homepage",
+      "urls": ["https://www.wearedesignmind.com/"],
+      "description": "Design Mind creative agency homepage with hero, features, services, pricing, FAQ sections",
+      "blocks": [
+        {
+          "name": "hero-dark",
+          "instances": ["#hero-1"]
+        },
+        {
+          "name": "carousel-logos",
+          "instances": ["#logo-list"]
+        },
+        {
+          "name": "cards-icon",
+          "instances": ["#process", "#benefits", "#work"]
+        },
+        {
+          "name": "quote-simple",
+          "instances": ["#testimonial"]
+        },
+        {
+          "name": "columns-split",
+          "instances": ["#services", "#pricing"]
+        },
+        {
+          "name": "accordion-dark",
+          "instances": ["#faqs"],
+          "section": "dark-green"
+        }
+      ]
+    }
+  ]
+}

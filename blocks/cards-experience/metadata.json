@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-experience",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-08T13:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wearedesignmind.com/",
+    "originPage": "Design Mind homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-cards",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + title + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight sections",
+      "benefits lists",
+      "process step cards",
+      "service offerings"
+    ],
+    "notSuitableFor": [
+      "portfolio galleries",
+      "blog post cards",
+      "team member cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-08T13:35:00.000Z"
+  }
+}

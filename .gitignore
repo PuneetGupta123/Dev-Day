@@ -1,0 +1,17 @@
+.hlx/*
+coverage/*
+logs/*
+node_modules/*
+
+helix-importer-ui
+.DS_Store
+*.bak
+.idea
+
+# Dependency directories (ignore anywhere in the repo)
+node_modules/
+**/node_modules/
+
+# Lock files
+package-lock.json
+**/package-lock.json

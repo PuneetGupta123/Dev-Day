@@ -1,0 +1,42 @@
+{
+  "variantName": "cards-skills",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-09T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wearedesignmind.com/",
+    "originPage": "Design Mind homepage",
+    "blockPosition": "middle",
+    "sectionName": "Simple, Powerful, and Crafted for Creative Teams"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light-beige",
+    "density": "airy",
+    "purpose": "feature-skills",
+    "imagePattern": "icon-only",
+    "cardStyle": "no-background"
+  },
+  "contentPattern": {
+    "structure": "icon + title + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "skills and capabilities showcase",
+      "service features",
+      "benefit highlights",
+      "team values"
+    ],
+    "notSuitableFor": [
+      "content requiring white card backgrounds",
+      "portfolio galleries",
+      "detailed product listings"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}
